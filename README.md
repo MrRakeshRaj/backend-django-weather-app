@@ -1,6 +1,5 @@
-# Django Weather APP
+# Django Weather App
 Django Backend to provide weather forecast data
-
 
 
 ## Spin Up the Project
