@@ -41,8 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'corsheaders'
     'api.apps.ApiConfig',
+    'corsheaders'
 ]
 
 MIDDLEWARE = [
@@ -68,6 +68,8 @@ CORS_ALLOWED_ORIGINS = [
 CORS_ALLOWED_ORIGIN_REGEXES = [
     "http://localhost:5173",
     "http://43.204.115.136"
+]
+CSRF_TRUSTED_ORIGINS = [
 ]
 
 ROOT_URLCONF = 'weather_project_backend.urls'
