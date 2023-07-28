@@ -6,6 +6,7 @@ Django Backend to the [react-weather-app](https://github.com/MrRakeshRaj/weather
 
 ## Deployment
 <img width="1435" alt="Screenshot 2023-07-28 at 23 40 25" src="https://github.com/MrRakeshRaj/django-weather-app/assets/76464379/423a94f8-5dc5-4c8d-8d4d-804238c7d8a0">
+
 **Hosted online on AWS [URL Link](http://15.206.88.22/)**
 
 ## Spin Up the Project
