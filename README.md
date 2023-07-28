@@ -1,5 +1,5 @@
 # Django Backend For Weather App
-Django Backend to provide weather forecast data
+Django Backend to the [react-weather-app](https://github.com/MrRakeshRaj/weather-app-with-django) to provide weather forecast data to frontend
 
 ## Tech Stack
 **Django, AWS**
