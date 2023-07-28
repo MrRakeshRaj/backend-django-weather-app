@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-id!w)kq%!e(h6jc=d4xv^&y4p74!+p*teb$&(x32v7o)5th%3b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['43.204.115.136', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -40,9 +40,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'api.apps.ApiConfig',
     'rest_framework',
     'corsheaders'
+    'api.apps.ApiConfig',
 ]
 
 MIDDLEWARE = [
@@ -56,8 +56,18 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
 ]
+
+
+# If this is used then `CORS_ALLOWED_ORIGINS` will not have any effect
+CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "http://43.204.115.136"
+]  # If this is used, then not need to use `CORS_ALLOW_ALL_ORIGINS = True`
+CORS_ALLOWED_ORIGIN_REGEXES = [
+    "http://localhost:5173",
+    "http://43.204.115.136"
 ]
 
 ROOT_URLCONF = 'weather_project_backend.urls'
