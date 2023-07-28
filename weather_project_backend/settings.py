@@ -64,11 +64,11 @@ CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "http://43.204.115.136"
+    "http://15.206.88.22"
 ]  # If this is used, then not need to use `CORS_ALLOW_ALL_ORIGINS = True`
 CORS_ALLOWED_ORIGIN_REGEXES = [
     "http://localhost:5173",
-    "http://43.204.115.136"
+    "http://15.206.88.22"
 ]
 CSRF_TRUSTED_ORIGINS = [
 ]

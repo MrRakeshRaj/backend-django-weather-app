@@ -7,7 +7,7 @@ api_key = os.environ.get('API_KEY')
 
 
 def main(request):
-    return HttpResponse('Hello World')
+    return HttpResponse('<h1>Hello World</h1>')
 
 
 @api_view(['POST'])
